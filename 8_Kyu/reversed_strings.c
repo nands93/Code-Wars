@@ -1,3 +1,5 @@
+// Complete the solution so that it reverses the string passed into it.
+
 #include <string.h>
 #include <stdlib.h>
 
