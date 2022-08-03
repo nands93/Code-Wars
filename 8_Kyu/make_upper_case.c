@@ -1,3 +1,5 @@
+// Write a function which converts the input string to uppercase.
+
 char *makeUpperCase (char *string)
 {
   int i = 0;
