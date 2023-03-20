@@ -46,8 +46,7 @@ int main(void)
     int maxi = max(test, sizeof(test)/sizeof(test[0]));
     int mini = min(test, sizeof(test)/sizeof(test[0]));
 
-    printf("max: %d\n", maxi);
-    printf("min: %d\n", mini);
+    printf("max: %d\nmin: %d\n", maxi, mini);
 
     return(0);
 }
