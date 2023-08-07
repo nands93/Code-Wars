@@ -14,16 +14,16 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 
 char *dna_to_rna(const char *dna)
 {
-  char *rna = malloc(sizeof(char) * (strlen(dna) + 1));
-  if (!dna || !rna)
-    return (NULL);
-  strcpy(rna, dna);
-  int i = 0;
-  while (rna[i] != '\0')
-  {
-    if (rna[i] == 'T')
-      rna[i] = 'U';
-    i++;
-  }
-  return (rna);
+	char *rna = malloc(sizeof(char) * (strlen(dna) + 1));
+	if (!dna || !rna)
+    	return (NULL);
+  	strcpy(rna, dna);
+	int i = 0;
+	while (rna[i] != '\0')
+	{
+		if (rna[i] == 'T')
+      		rna[i] = 'U';
+    	i++;
+	}
+  	return (rna);
 }
